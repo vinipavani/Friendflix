@@ -1,0 +1,13 @@
+.container{
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+	grid-template-rows: repeat(1.50%);
+	width:50%;
+	height:80%;
+}
+
+.todas{
+	background: yellow;
+	border: solid 5px #000;
+}
+
