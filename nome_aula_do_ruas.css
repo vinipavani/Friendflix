@@ -53,3 +53,12 @@ body{
 #serie-1{
 	background-color: rgba(0,0,0,0);
 }
+
+@media (max-width:900px) {
+	.container{
+		display:flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+}
