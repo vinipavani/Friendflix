@@ -1,13 +1,55 @@
 .container{
 	display: grid;
 	grid-template-columns: repeat(4,25%);
-	grid-template-rows: repeat(1.50%);
-	width:50%;
-	height:80%;
+	grid-template-rows: repeat(4,25%);
+	width:100%;
+	height:100%;
+	justify-items:center;
+	align-items:center;
+
 }
 
 .todas{
-	background: yellow;
+	background:#4a0500;
 	border: solid 5px #000;
+	width:95%;
+	height:90%;
+	border-radius: 100px;
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	transition: width 0.6s, height 0.6s, border-radius 0.6s;
+
 }
 
+.todas:hover{
+	width: 100%;
+	height: 100%;
+	transition: time-function:ease;
+	border-radius: 30px
+}
+
+body{
+	background-color:#1c1a1b;
+	color:white;
+	font-family: 'Bowlby One SC', cursive;
+	font-size:1.3em;
+	background-image: url(img/back.jpg);
+
+}
+#serie-6{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSiU4jqP-27kqqN4h52A6Y0QJ3qdDT-kmypkUdvi7xLtmOxP42e);
+	background-position: 0
+
+}
+#serie-11{
+	background-image: url(img/daredevil.jpg);
+
+}
+#serie-1{
+	background-color: rgba(0,0,0,0);
+}
