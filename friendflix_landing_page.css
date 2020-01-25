@@ -1,0 +1,27 @@
+/* .titulo{
+    font-family:Calistoga;
+    -webkit-text-stroke: 1px #0000;
+}
+body{
+    background-image:linear-gradient(#000000,#200000);
+    font-size:18px;
+    color: #E8A69B;
+} */
+.foto1{
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixa_interna1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.texto1{
+  width: 70vw;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
