@@ -8,6 +8,7 @@ body{
 .caixa_interna1{
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .foto1{
@@ -37,11 +38,13 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
+    background-color:#290505;
+    padding: 5px;
 }
 
 .foto2{
     width: 29vw;
-    height: auto;
+    height: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,6 +69,7 @@ body{
 .caixa_interna3{
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .foto3{
@@ -93,7 +97,7 @@ body{
 .barra_de_navegar{
     display: grid;
     grid-template-columns:repeat(5,19%);
-    background-color: brown;
+    background-color: #7e1717;
     width: 100vw ;
     height: 80px;
     justify-content: center;
@@ -110,6 +114,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center
+
 }
 .item2{
     display: flex;
@@ -126,26 +131,47 @@ body{
     align-items: center;
     justify-content: center;
 }
+.header_button{
+    font-size: x-large;
+    color: #E8A69B;
+    background-color: #7e1717;
+    border-color: #7e1717;
+    text-decoration:none;
+}
 
 /*Ajuste da imagem de fundo e texto na introdução do site*/
 .introducao{
     display: flex;
-    justify-content: right;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
     background-image: url(./img/homem_vendo_tv.jpg);
     height: 550px;
     width: auto;
     background-repeat: round;
     font-style: oblique;
     font-size: xx-large;
-    color: cornsilk;
+    color: #fff8dc;
+}
+.text_intro{
+    margin-right: 270px;   
+}
+.icone_download{
+    width: 200px;
+    height: auto;
+    margin-right: 360px;
+    margin-top: -20px;
 }
 
+/*Ajustes no footer do site*/
 .roda_pe{
-    display: flex;
-    margin-left: 20px;
-    margin-block-end: 20px;
+    background-color: #000000;
+    height: 60px;
+    padding-left: 15px;
 }
+
+
+
+
 
 
 
